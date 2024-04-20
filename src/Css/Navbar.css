@@ -4,6 +4,12 @@ header {
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
+.title {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
 .fixed-header {
     position: fixed;
     top: 0;
@@ -20,7 +26,7 @@ padding: 0 20px;
 }
 
 .navbar .title {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 nav ul {
@@ -31,10 +37,40 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 2rem;
+    padding-right: 2rem;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,%3csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3e%3cpath stroke="rgba(0, 0, 0, 0.5)" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22" /%3e%3c/svg%3e');
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.nav-links {
+    display: none;
+    color: white;
+}
+
+.nav-links.show {
+    display: flex;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white !important;
 }
