@@ -1,0 +1,17 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 2rem;
+    color: white;
+}
+
+.profile-picture img {
+    height: 100%;
+    mix-blend-mode:lighten
+}
