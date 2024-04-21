@@ -2,7 +2,7 @@
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     color: white;
     padding: 50px 0;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(245, 84, 84, 0.5);
     position: relative; /* Add position relative */
 }
 
@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .footer-container {
@@ -23,6 +24,7 @@
 .contact-info, .social-media {
     flex-basis: 100%;
     margin-bottom: 25px;
+    
 }
 
 .contact-item, .social-media-item {
