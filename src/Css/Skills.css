@@ -23,7 +23,10 @@
 .skills-container h2 {
     color: orange;
     font-size: 36px;
-    
+    margin-bottom: 20vh;
+    margin-right: 5rem;
+    margin-top: 15vh; 
+      
 }
 
 /*Big Screen*/
