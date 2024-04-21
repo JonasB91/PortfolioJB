@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='copyright'>
-          <p>&copy; 2024 Jonas Backas. All rights reserved.</p>
+          <p>&copy; 2024 Made by Jonas Backas</p>
         </div>
       </div>
     </footer>

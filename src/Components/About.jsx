@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Css/About.css'
-import ProfilePicture from '../Assets/ProfileJB3.png'
+import ProfilePicture from '../Assets/ProfileJB2.png'
 
 const About = () => {
   return (
@@ -8,22 +8,15 @@ const About = () => {
       <div className='about-text'>
         <h2>About Me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Nobis saepe quas fugiat vel, praesentium unde magni suscipit 
-          optio perferendis reprehenderit eius aperiam doloremque tenetur, 
-          rerum animi, qui modi asperiores dolorem.
+          Hi, I'm Jonas, A passionate student of frontend development, 
+          Constantly seeking to deepen my understanding and refine my skills in crafting immersive digital experiences. 
+          Driven by curiosity and fueled by a love for programming, 
+          I thrive on discovering innovative ways to build responsive and user-friendly applications.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Dolores voluptatibus quam sequi minus, accusamus illo excepturi 
-          commodi rerum aliquam nisi nostrum aliquid nulla neque, corrupti 
-          iusto vero tempore soluta ea.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Repellat laborum asperiores illo, illum ut mollitia dignissimos. 
-          Nulla modi sequi fuga doloremque 
-          dignissimos ipsa adipisci saepe est enim doloribus! Dolorem, mollitia.
+        As a dedicated team player, I cherish collaboration and value the diverse perspectives that come with it. 
+        I'm eagerly looking forward to bringing my expertise to your team, 
+        contributing to our collective success in creating extraordinary digital solutions.
         </p>
       </div>
       <div className='profile-picture'>

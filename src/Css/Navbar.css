@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+    font-family: "Quicksand", sans-serif;
+}
 header {
     color: white;
     padding: 20px 0;
@@ -53,7 +57,7 @@ nav ul li a {
     background-color: white;
     cursor: pointer;
     color: white;
-    display: none;
+    
 }
 
 .navbar-toggler-icon {
@@ -77,4 +81,70 @@ nav ul li a {
 }
 .navbar-brand {
     color: orange;
+}
+
+/* Big Screens Media Query */
+@media screen and (min-width: 992px) {
+    .title {
+        margin-left: 2rem;
+        font-size: 26px;
+    }
+    .navbar {
+        padding: 0 20px;
+    }
+
+    nav ul li {
+        margin-right: 2rem;
+        padding-right: 2rem;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .nav-links {
+        display: flex;
+    }
+}
+
+/* Medium Screens Media Query */
+@media screen and (min-width: 991px) and (min-width: 768px) {
+    .title {
+        margin-left: 1rem;
+        font-size: 20px;
+    }
+    .navbar {
+        padding: 0 10px;
+    }
+    nav ul li {
+        margin-right: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+/* Small Screens Media Query */
+@media screen and (min-width: 767px) {
+    .title {
+        margin-left: 0.5rem;
+        font-size: 18px;
+    }
+    .navbar {
+        padding: 0 5px;
+    }
+
+    nav ul li {
+        margin-right: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+    }
 }

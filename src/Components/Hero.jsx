@@ -4,6 +4,9 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 const Hero = () => {
+  //Check if screen size is big or not
+  const isBigScreen = () => window.innerWidth > 991;
+
   return (
     <div className='hero-container'>
     <div className='ring'>
@@ -12,13 +15,16 @@ const Hero = () => {
     <i style={{ '--clr': '#fffd44' }}></i>
       <div className='headline'>
       <span style={{ color: 'orange', fontSize: '2em' }}>Hello</span><br />
+        {isBigScreen() ? (
         <TypeAnimation
         sequence={[
-          "I'm, Jonas a frontend developer",
+          "I'm Jonas",
+          1000,
+          "A front-end developer",
           2000,
           'Looking for a new career',
           2000,
-          'Get to know me!',
+          'Get to know me',
           2000
         ]}
         wrapper='span'
@@ -26,6 +32,12 @@ const Hero = () => {
         style={{ fontSize: '1em', display: 'inline-block'}}
         repeat={Infinity}
         />
+      ) : (
+        <>
+          <span>I'm Jonas</span><br />
+          <span>A Front-end Developer</span>
+        </>
+      )}
       </div>
       </div>
     </div>

@@ -9,13 +9,6 @@ const Work = () => {
         <div className="grid-item">Coming soon</div>
         <div className="grid-item">Coming soon</div>
         <div className="grid-item">Coming soon</div>
-        <div className="grid-item">Coming soon</div>
-        <div className="grid-item">Coming soon</div>
-        <div className="grid-item">Coming soon</div>
-        <div className="grid-item">Coming soon</div>
-        <div className="grid-item">Coming soon</div>
-        <div className="grid-item">Coming soon</div>
-        <div className="grid-item">Coming soon</div>
       </div>
     </div>
   )

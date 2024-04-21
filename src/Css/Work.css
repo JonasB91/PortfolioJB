@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
 .work-container {
     margin: 50px auto;
     max-width: 800px;
     text-align: center;
+    
 }
 .work-container h2 {
     color: orange;
@@ -10,7 +16,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(1, 1fr));
     gap: 20px;
 }
 
@@ -20,3 +26,31 @@
     padding: 20px;
     border-radius: 5px;    
 }
+
+/* Big screens */
+@media screen and (min-width: 992px) {
+    .grid-container {
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+    }
+  }
+  
+  /* Medium screens */
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+  }
+  
+  /* Small screens */
+  @media screen and (max-width: 767px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+  
+    .work-container h2 {
+      font-size: 24px;
+    }
+  }

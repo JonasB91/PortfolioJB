@@ -1,22 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+}
 .about-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    margin-left: 2rem;
-}
-
-.about-text {
+    margin-left: 8rem;
+    
+  }
+  
+  .about-text {
     flex: 1;
-    padding-right: 2rem;
+    padding-right: 4rem;
     color: white;
-}
-
-.profile-picture img {
-    height: 100%;
-    mix-blend-mode:lighten
-}
-
-.about-text h2 {
+  }
+  
+  .profile-picture img {
+    height: auto;
+    width: 50%;
+    margin-right: 2rem;
+    mix-blend-mode: lighten;
+    border-radius: 50%;
+  }
+  
+  .about-text h2 {
     color: orange;
-}
+  }
+  
+  .about-text p {
+    font-size: 20px;
+  }
+  
+  /* Big screens */
+  @media screen and (min-width: 992px) {
+    /* If needed some adjustment to bigger screens goes here*/
+  }
+  
+  /* Medium screens */
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    .about-container {
+      margin-left: 1rem; 
+    }
+  
+    .about-text {
+      padding-right: 1rem; 
+    }
+  }
+  
+  /* Small screens */
+  @media screen and (max-width: 767px) {
+    .about-container {
+      flex-direction: column; 
+      padding: 1rem; 
+      margin-left: auto; 
+      align-items: center;
+
+    }
+  
+    .profile-picture {
+      width: 100%;
+      margin-right: 0; 
+      margin-bottom: 1rem; 
+      
+    }
+    .profile-picture img {
+      margin-left: 5rem;
+    }
+    .about-text {
+      margin-left: 1rem;
+    }
+  }
+  
