@@ -16,11 +16,11 @@ function App() {
         <section id="about">
           <About />
         </section>
-        <section id="work">
-          <Work />
-        </section>
         <section id="skills">
           <Skills />
+        </section>
+        <section id="work">
+          <Work />
         </section>
         <section id="footer">
           <Footer />
