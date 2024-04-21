@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Work from './Components/Work';
 import Skills from './Components/Skills';
-import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
         <section id="skills">
           <Skills />
         </section>
-        <section id="contact">
-          <Contact />
+        <section id="footer">
+          <Footer />
         </section>
       </main>
     </Router>

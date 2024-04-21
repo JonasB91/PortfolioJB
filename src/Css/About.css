@@ -16,3 +16,7 @@
     height: 100%;
     mix-blend-mode:lighten
 }
+
+.about-text h2 {
+    color: orange;
+}

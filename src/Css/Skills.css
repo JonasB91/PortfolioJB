@@ -1,0 +1,21 @@
+.skills-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.skills-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem; /* justera här mellanskillnad för varje icon*/
+}
+
+.skills-icons img {
+    width: 50%;
+    height: 50%;
+}
+
+.skills-container h2 {
+    color: orange;
+    font-size: 44px;
+    font-weight: bold;
+}
