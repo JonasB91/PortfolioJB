@@ -6,13 +6,13 @@
 .skills-container {
     text-align: center;
     margin-top: 2rem;
-    
+    margin-left: 3rem;
 }
 
 .skills-icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem; /* justera här mellanskillnad för varje icon*/
+    gap: rem; /* justera här mellanskillnad för varje icon*/
 }
 
 .skills-icons img {
@@ -55,5 +55,6 @@
   
     .skills-container h2 {
       font-size: 24px;
+      margin-right: 3rem;
     }
   }
