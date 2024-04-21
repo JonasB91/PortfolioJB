@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='additional-info'>
-            <p>Currently a student at Jensen Education <br/>Studying for Frontend Development with web security<br/> - Graduation in summer 2026</p>
+            <p>Currently a student at Jensen Education <br/>Studying for Frontend Development with web security<br/> - Graduation in summer 2025</p>
           </div>
         </div>
         <div className='copyright'>
