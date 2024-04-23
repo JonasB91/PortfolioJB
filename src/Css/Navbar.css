@@ -4,7 +4,7 @@
 }
 header {
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
@@ -26,7 +26,7 @@ header {
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0 20px;
+padding: 5 20px;
 
 }
 
@@ -82,16 +82,14 @@ nav ul li a {
 }
 
 .favicon-image {
-    height: 20vh;
-    width: 20vw;
-
+    height: 15vh;
 }
 
 /* Big Screens Media Query */
 @media screen and (min-width: 992px) {
     .title {
         margin-left: 2rem;
-        font-size: 36px;
+        font-size: 26px;
     }
     .navbar {
         padding: 0 20px;
@@ -113,7 +111,7 @@ nav ul li a {
 @media screen and (min-width: 991px) and (min-width: 768px) {
     .title {
         margin-left: 1rem;
-        font-size: 20px;
+        font-size: 18px;
     }
     .navbar {
         padding: 0 10px;
@@ -135,7 +133,7 @@ nav ul li a {
 @media screen and (min-width: 767px) {
     .title {
         margin-left: 0.5rem;
-        font-size: 18px;
+        font-size: 16px;
     }
     .navbar {
         padding: 0 5px;
