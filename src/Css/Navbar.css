@@ -8,8 +8,6 @@ header {
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
-
-
 .title {
     color: white;
     text-decoration: none;
@@ -82,15 +80,18 @@ nav ul li a {
 .navbar .navbar-nav .nav-link {
     color: white !important;
 }
-.navbar-brand {
-    color: orange;
+
+.favicon-image {
+    height: 20vh;
+    width: 20vw;
+
 }
 
 /* Big Screens Media Query */
 @media screen and (min-width: 992px) {
     .title {
         margin-left: 2rem;
-        font-size: 26px;
+        font-size: 36px;
     }
     .navbar {
         padding: 0 20px;

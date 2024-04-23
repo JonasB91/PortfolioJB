@@ -19,7 +19,7 @@ import typescriptIcon from '../Assets/typescript.svg';
 const Skills = () => {
   return (
     <div className='skills-container'>
-            <h2>What i've learned so far</h2>
+            <h2>What i've learn't so far</h2>
               <div className='skills-icons'>
                 <img src={bootstrapIcon} alt="Bootstrap" title="BOOTSTRAP"/>
                 <img src={css3Icon} alt="Css3" title="CSS3"/>

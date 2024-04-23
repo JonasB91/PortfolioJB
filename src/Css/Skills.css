@@ -7,17 +7,21 @@
     text-align: center;
     margin-top: 2rem;
     margin-left: 3rem;
+    margin-right: auto;
+    
 }
 
 .skills-icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: rem; /* justera här mellanskillnad för varje icon*/
+    
 }
 
 .skills-icons img {
     width: 50%;
     height: 50%;
+    border-radius: 50%;
 }
 
 .skills-container h2 {
@@ -25,8 +29,7 @@
     font-size: 36px;
     margin-bottom: 20vh;
     margin-right: 5rem;
-    margin-top: 15vh; 
-      
+    margin-top: 15vh;  
 }
 
 /*Big Screen*/
