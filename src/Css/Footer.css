@@ -6,10 +6,8 @@
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     color: white;
     padding: 50px 0;
-    box-shadow: 0px 0px 10px rgba(245, 84, 84, 0.5);
     position: relative;
-    overflow-y: hidden;
-    margin-bottom: 10vh;
+    overflow-y: hidden; 
 }
 
 .container {
@@ -28,7 +26,21 @@
 .contact-info, .social-media {
     flex-basis: 100%;
     margin-bottom: 25px;
-    
+}
+
+.location-image {
+  display: flex;
+  align-items: center;
+}
+
+.location-image p {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.location-image img {
+  width: 30px;
+  height: 30px;
 }
 
 .contact-item, .social-media-item {
@@ -61,7 +73,7 @@ margin-top: 25px;
 
 .additional-info {
     flex-basis: 100%;
-    margin-top: 15vh;
+    margin-top: 20vh;
     text-align: right;
     position: absolute;
     top: 20px;

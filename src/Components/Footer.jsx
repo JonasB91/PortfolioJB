@@ -3,6 +3,7 @@ import '../Css/Footer.css';
 import linkedinIcon from '../Assets/linkedin.svg';
 import emailIcon from '../Assets/email.svg';
 import githubIcon from '../Assets/github.svg';
+import locationIcon from '../Assets/location.png'
 
 const Footer = () => {
   return (
@@ -16,6 +17,10 @@ const Footer = () => {
                 <img src={emailIcon} alt="Email" />
               </a>
               <p>Email: jonas.backas@hotmail.com</p>
+            </div>
+            <div className='location-image'>
+            <img src={locationIcon} alt="Location" />
+            <p>Sweden - Stockholm</p>
             </div>
           </div>
           <div className='social-media'>
