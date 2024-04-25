@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    margin-left: 8rem;
+    
     
   }
   
@@ -18,11 +18,18 @@
   }
   
   .profile-picture img {
+    background-color: orange;
     height: auto;
     width: 50%;
     margin-right: 4rem;
     mix-blend-mode: lighten;
-    border-radius: 50%;
+    border-radius: 39% 61% 50% 50% / 56% 21% 79% 44% ;
+    margin-left: 7rem;
+  }
+  
+  .profile-picture img:hover {
+    background-color: rgb(203, 113, 3);
+    border-radius: 65% 35% 25% 75% / 75% 43% 57% 25%;
   }
   
   .about-text h2 {
